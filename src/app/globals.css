@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .text-outline-blue {
+    -webkit-text-stroke: 3px #4f46e5; /* Define a borda azul ao redor do texto */
+  }
+  .text-outline-transparent {
+    -webkit-text-stroke: 1px #ffffff00; /* Define a borda azul ao redor do texto */
+  }
+}
